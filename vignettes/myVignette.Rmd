@@ -1,0 +1,22 @@
+---
+title: "Vignette for buildingRPackage"
+author: "Syed Karim"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The package read from the US FARS (Fatality Analysis Recording System) data and summuarize and visualize it for users. 
+To use the function fo the package the data set must be in the working directory of 
+the user <br><br>
+
+The packages uses the follwoing functions with apt aurguments in it: <br><br>
+
+1. fars_summarize_years()<br>
+2. fars_map_state()<br>
+3. fars_read()<br>
+4. make_filename()<br>
+5. fars_read_years()
